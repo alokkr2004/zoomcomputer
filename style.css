@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+.navbar {
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+}
+
+/* .navbar div{
+border: 2px solid green;
+} */
+
+/* logo  */
+.logo h2 {
+    color: purple;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* navlinks  */
+.nav-links ul {
+    display: flex;
+    height: 100%;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links ul li:hover a{
+    color: white;
+
+}
+.nav-links ul li:hover {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+/* call to action  */
+.cta button {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+
+}
+
+
+/* navbar ends  here  */
+
+/* ------------------------------------------------------------------- */
+
+/* hero section  */
+
+.hero {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin-right: 40px;
+
+}
+
+.hero-desc h2 {
+    padding: 30px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: purple;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.hero-desc p {
+    text-align: justify;
+}
+
+.hero-btn {
+    padding: 30px 0;
+}
+
+.hero-btn button {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero-btn .btn1 {
+    background-color: purple;
+    margin-right: 30px;
+}
+
+.hero-btn .btn2 {
+    background-color: teal;
+
+}
+
+
+.hero-image {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-image img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+}
+
+/* hero section ends here  */
+
+
+/* featured courses  */
+
+.featured-courses {
+    padding: 50px 20px;
+    background-color: rgb(221, 191, 221);
+
+}
+
+.courses {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-courses h2 {
+    font-size: 50px;
+    color: rgb(22, 22, 77);
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+}
+
+.course-card {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+
+.course-name h3 {
+    padding: 20px 15px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.course-price {
+    background-color: purple;
+    color: whitesmoke;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-price h3 {
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.course-contents {
+    margin: 30px;
+
+}
+
+.course-contents ul {
+    padding-bottom: 30px;
+}
+
+
+.course-contents ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+/* featured courses end  */
+
+
+/* facilities section  */
+
+.facilites {
+    height: 700px;
+    display: flex;
+
+}
+
+.big-logo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.facilities-details {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(33, 17, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    
+
+}
+.facilities-details h1{
+    font-size: 50px;
+}
+
+.topic {
+    margin-top: 50px;
+  
+}
+
+.topic-item {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.zcc-name{
+    position: absolute;
+    top: 26px;
+    left: 28px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 2px;
+}
+
+.topic-item img {
+    width: 100px;
+}
+
+/* facilities section end */
+
+/* footer  */
+footer{
+    height: 80px;
+    background-color: grey;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    
+}
+/* footer end */
